@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  color: rgb(14, 156, 218);
+  text-align: center;
+  font-size: 35px;
+  border: 2px dotted #e40c08;
+  
+}
+
+.slider {
+  width: 256px;
+  height: 256px;
+  border: 2px solid black;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+.slider-line {
+  height: 256px;
+  width: 1024px; 
+  /* ширина * 4 картинки */
+  display: flex;
+  background-color: rgb(234, 204, 209);
+  position: relative;
+  
+
+}
+
+.button-group {
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  color:rgb(14, 156, 218);
+  background-color: rgb(61, 228, 120);
+  border-radius: 20px;
+  width: 100px;
+  height: auto;
+}
+
+button:hover {
+  background-color: #e40c08;
+  color: #fff;
+}
+
+/* .slider-prev {
+  visibility: hidden;
+} */
